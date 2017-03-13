@@ -1,0 +1,19 @@
+{
+  "name": "attributor",
+  "version": "0.0.1",
+  "description": "util tool to visually display values of a given attribute on a webpage Edit",
+  "main": "Attributor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piratefsh/attributor.git"
+  },
+  "author": "Sher Minn Chong <sherminn.chong@gmail.com> (https://piratefsh.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piratefsh/attributor/issues"
+  },
+  "homepage": "https://github.com/piratefsh/attributor#readme"
+}
