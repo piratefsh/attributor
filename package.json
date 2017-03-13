@@ -1,7 +1,7 @@
 {
   "name": "attributor",
-  "version": "0.0.1",
-  "description": "util tool to visually display values of a given attribute on a webpage Edit",
+  "version": "0.0.2",
+  "description": "Util tool to visually display values of DOM elements for a given attribute",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
