@@ -1,6 +1,12 @@
 # Attributor
 A quick way to visually see all an attribute/content of the DOM elements in your page.
 
+## Installation
+
+```js
+npm install -S attributor
+```
+
 ## Documentation
 
 ```js
@@ -14,14 +20,19 @@ new Attributor(selector, attributeCallback)
 
 
 ## Example
-For example, if you want to see the `class` values for all `p` elements:
+
+See example of usage for debugging [here on Codepen](http://codepen.io/piratefsh/pen/mAjWLY).
+
+If you want to see the `class` values for all `p` elements:
 
 ```js
+var Attributor = require('attributor');
 var att = new Attributor('p', function(el){return el.getAttribute('data-block-track')});
 ```
 
 If you want to see the `innerHTML` values for all elements with `alert` class:
 
 ```js
+var Attributor = require('attributor');
 var att = new Attributor('.alert', function(el){ return el.innerHTML});
 ```
