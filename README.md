@@ -27,7 +27,7 @@ If you want to see the `class` values for all `p` elements:
 
 ```js
 var Attributor = require('attributor');
-var att = new Attributor('p', function(el){return el.getAttribute('data-block-track')});
+var att = new Attributor('p', function(el){return el.getAttribute('class')});
 ```
 
 If you want to see the `innerHTML` values for all elements with `alert` class:
