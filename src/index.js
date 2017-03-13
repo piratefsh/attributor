@@ -1,5 +1,5 @@
 // Takes in a block selector and a callback that takes in a  DOM elem and returns a desired text for the label
-export default class Attributor {
+class Attributor {
   constructor(blockSelector, labelGetterFn) {
     const blockElems = document.querySelectorAll(blockSelector);
   
@@ -95,3 +95,5 @@ class AttributorElem {
     return this.elem;
   }
 }
+
+module.exports = Attributor

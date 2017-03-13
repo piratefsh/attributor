@@ -2,9 +2,10 @@
   "name": "attributor",
   "version": "0.0.1",
   "description": "util tool to visually display values of a given attribute on a webpage Edit",
-  "main": "Attributor.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/piratefsh/attributor/issues"
   },
-  "homepage": "https://github.com/piratefsh/attributor#readme"
+  "homepage": "https://github.com/piratefsh/attributor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-es2016": "^6.22.0"
+  }
 }
